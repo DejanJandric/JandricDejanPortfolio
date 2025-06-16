@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dejan Jandrić - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font import -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <!-- Header -->
+            <header>
+                <h1>Hi, I'm Dejan Jandrić 👋</h1>
+            </header>
+
+            <!-- Location Banner -->
+            <div class="banner-container">
+                <div class="banner floating-banner">
+                    <p>
+                        Based in Prijedor, Bosnia and Herzegovina
+                        <br>
+                        Currently learning API, JS, Python scripts
+                    </p>
+                    <div class="code-text">
+                     &lt;Integration&gt; && &lt;Point of Sale&gt; && &lt;Web API&gt; && &lt;SaaS&gt;
+                    </div>
+                </div>
+            </div>
+
+            <!-- Current Role Banner -->
+            <div class="role-banner">
+                <p>
+                    I am a Support Analyst @SoftPoint LLC, and I keep the connection between Point of Sale and integrated software.
+                </p>
+            </div>
+
+            <!-- Experience Cards -->
+            <div class="card-grid">
+                <div class="card">
+                    <h2>Startup 🏢</h2>
+                    <p>
+                        Adjustment to work in a fast-paced environment for different startup companies. In startups, communication
+                        is key to overcoming different challenges. Analyzing problems, working with limited resources and tools.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h2>Corporate 💼</h2>
+                    <p>
+                        Experienced in corporate offices for over three years. Worked across multi-national teams and successfully
+                        maintained the company's service level agreement for various channels such as phone, email, and live chat.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h2>On-Site negotiation 🤝</h2>
+                    <p>
+                        Selling products and services using solid arguments to prospective customers. Performing cost-benefit
+                        analyses of existing and potential customers.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bio Section -->
+            <section class="bio-section">
+                <h2>About Me</h2>
+                <p>
+                    I'm <strong>Dejan Jandrić</strong>, a dedicated technical support analyst with over five years of experience
+                    in support technologies and sales development. My professional journey began in sales, but a strong passion
+                    for technology and user-centric solutions led me to transition into software support. This pivot allowed me
+                    to blend my expertise in customer interaction with my technical skills, focusing on enhancing user
+                    experiences by installing and testing user interface elements.
+                </p>
+            </section>
+
+            <!-- Contact Button -->
+            <div class="contact-container">
+                <a href="mailto:dejanjandric7@gmail.com" class="contact-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mail-icon">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                    <span>
+                        <strong>Let's connect!</strong> Get in touch → dejanjandric7@gmail.com
+                    </span>
+                </a>
+            </div>
+
+            <!-- Tech Stack -->
+            <section class="tech-section">
+                <h2>Tech I Use</h2>
+                <div class="tech-links">
+                    <a href="https://github.com/DejanJandric/MyMacOS-Setup/blob/main/MyMacOs.md" target="_blank" rel="noopener noreferrer">
+                        Github
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">
+                        HTML/CSS
+                    </a>
+                    <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">
+                        Postman
+                    </a>
+                    <a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer">
+                        Customer Relationship Management
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>© <span id="current-year"></span> Dejan Jandrić</p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // Simple script to update the year in the copyright
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
